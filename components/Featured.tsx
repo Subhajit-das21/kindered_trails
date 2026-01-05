@@ -18,7 +18,7 @@ const products = [
     name: "Organic Silk Leash",
     category: "Walking",
     price: "$45",
-    image: "https://images.unsplash.com/photo-1591333139264-28414273b532?auto=format&fit=crop&q=80&w=600"
+    image: "https://images.unsplash.com/photo-1745600738105-726825b715ea?q=80"
   },
   {
     id: 3,
