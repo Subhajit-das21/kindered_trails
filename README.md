@@ -1,20 +1,66 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🐾 Kindred Tails — Premium Pet Care Concierge
 
-# Run and deploy your AI Studio app
+Kindred Tails is a high-impact, emotionally driven landing page designed for a luxury pet care brand. The platform blends sophisticated aesthetics with modern technology to create a sanctuary-like digital experience for discerning pet parents.
 
-This contains everything you need to run your app locally.
+![Kindred Tails Preview](https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=800)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1GFTGCPD95MnesgilvHLvjSwhLK4gVBGq
+## ✨ Core Features
 
-## Run Locally
+- **AI Care Assistant:** An intelligent pet care concierge powered by **Google Gemini (AI)**, providing personalized advice on nutrition, grooming, and wellness.
+- **Immersive Motion Design:** Utilizing **Framer Motion** for smooth parallax scrolling, floating background elements, and high-fidelity transitions.
+- **Dynamic Boutique:** A curated "Comfort Collection" with category filtering and interactive product cards.
+- **Service Catalog:** Elegant presentation of signature grooming, veterinary care, and luxury boarding services.
+- **Emotional Storytelling:** A philosophy-first approach that uses soft typography and parallax imagery to build deep trust with the user.
+- **Responsive & Accessible:** Fully optimized for all device sizes with a focus on premium UI/UX.
 
-**Prerequisites:**  Node.js
+## 🛠️ Technology Stack
+
+- **Framework:** [React 19](https://react.dev/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Intelligence:** [@google/genai](https://ai.google.dev/) (Gemini 3 Flash)
+- **Deployment:** ES6 Modules / ESM.sh
+
+## 📂 Project Structure
+
+```text
+├── components/
+│   ├── CareAssistant.tsx  # Gemini AI Integration
+│   ├── Featured.tsx       # Product Grid & Filtering
+│   ├── Footer.tsx         # Premium Footer with CTA
+│   ├── Hero.tsx           # Parallax Hero Section
+│   ├── Navbar.tsx         # Floating Glassmorphic Nav
+│   ├── Services.tsx       # Service Offerings
+│   ├── Story.tsx          # Brand Philosophy & Parallax
+│   ├── Testimonials.tsx   # Social Proof
+│   └── Trust.tsx          # Key Value Propositions
+├── App.tsx                # Main Layout Assembly
+├── index.html             # Entry Point & Global Styles
+├── index.tsx              # React DOM Rendering
+└── metadata.json          # Application Metadata
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+To enable the **AI Care Assistant**, you must have a valid Google Gemini API Key.
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Development
+
+The project uses a modern ES6 module structure. Simply serve the root directory using any local web server (e.g., Live Server, Vite, or a simple python server).
+
+## 🎨 Design Language
+
+- **Primary Palette:** `#2B1E16` (Deep Earth), `#FFF8F1` (Soft Cream), `#F4A261` (Warm Sunset)
+- **Typography:** 
+  - *Headings:* DM Sans (Modern & Clean)
+  - *Body:* Inter (Highly Readable)
+  - *Accent:* Caveat (Emotional & Hand-written)
+- **Visuals:** High-resolution photography from Unsplash with soft filters to maintain a "luxury wellness" atmosphere.
+
+---
+
+Developed with ❤️ for the world's most precious companions.
