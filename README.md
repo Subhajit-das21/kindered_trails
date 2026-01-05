@@ -41,26 +41,6 @@ Kindred Tails is a high-impact, emotionally driven landing page designed for a l
 └── metadata.json          # Application Metadata
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-To enable the **AI Care Assistant**, you must have a valid Google Gemini API Key.
-
-
-### Development
-
-The project uses a modern ES6 module structure. Simply serve the root directory using any local web server (e.g., Live Server, Vite, or a simple python server).
-
-## 🎨 Design Language
-
-- **Primary Palette:** `#2B1E16` (Deep Earth), `#FFF8F1` (Soft Cream), `#F4A261` (Warm Sunset)
-- **Typography:** 
-  - *Headings:* DM Sans (Modern & Clean)
-  - *Body:* Inter (Highly Readable)
-  - *Accent:* Caveat (Emotional & Hand-written)
-- **Visuals:** High-resolution photography from Unsplash with soft filters to maintain a "luxury wellness" atmosphere.
-
 ---
 
 Developed with ❤️ for the world's most precious companions.
